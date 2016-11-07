@@ -11,12 +11,48 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Compress Video"
-        android:layout_centerInParent="true"
-        android:onClick="call"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txt_filepath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="recordVideo"
+                android:text="Record Video"/>
+
+            <Button
+                android:id="@+id/btn_select_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="selectVideo"
+                android:text="Select Video"/>
+
+            <Button
+                android:id="@+id/btn_compress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Compress"
+                android:enabled="false"
+                android:onClick="startCompression"/>
+
+        </LinearLayout>
+
 
     </RelativeLayout>
 
