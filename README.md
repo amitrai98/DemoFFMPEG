@@ -13,5 +13,5 @@ new String[] { "/data/data/"+packageName+"/ffmpeg",
 
 
 <p align="center">
-  <img src="https://github.com/amitrai98/DemoFFMPEG/blob/master/app/videocompression.gif?raw=true" width="350"/>
+  <img src="https://github.com/amitrai98/DemoFFMPEG/blob/master/app/compression.gif?raw=true" width="350"/>
 </p>
